@@ -1,0 +1,39 @@
+/* style.css */
+
+:root {
+    --background-color: #ffffff;
+    --text-color: #000000;
+}
+
+[data-mode="dark"] {
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+body {
+    font-family: Arial, sans-serif;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+/* تنسيقات زر التبديل */
+/* style.css */
+
+.dark-mode-toggle {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px;
+    font-size: 24px;
+    /* تكبير الأيقونة */
+    cursor: pointer;
+    border: none;
+    border-radius: 50px;
+    background-color: #333;
+    color: #fff;
+    transition: background-color 0.3s;
+    z-index: 1000;
+}
+
+.dark-mode-toggle:hover {
+    background-color: #555;
+}

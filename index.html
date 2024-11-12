@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark Mode Library Demo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Welcome to Dark Mode Library</h1>
+    <p>This is a sample paragraph to demonstrate dark mode switching.</p>
+    <script type="module">
+        import DarkModeLibrary from './dark-mode-library.js';
+
+        new DarkModeLibrary({
+            colors: { background: '#000000', text: '#e94560' },
+            transitionDuration: '0.8s',
+            transitionType: 'steps(5, end)'
+        });
+    </script>
+</body>
+
+</html>
