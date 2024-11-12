@@ -15,13 +15,13 @@ A simple JavaScript library to toggle between dark and light modes on your websi
 
 ## How to Use
 
-1. Download file js and css or clone this repository.
+1. Download file javascript and css or clone this repository.
 2. Include files in your project.
 3. Add the following code to initialize the library:
 
 ```javascript
     <script type="module">
-        import DarkModeLibrary from './dark-mode-library.js'; ===> مكان ملف js
+        import DarkModeLibrary from './dark-mode-library.js'; ===> مكان ملف javascript
 
         const darkModeLibrary = new DarkModeLibrary({
             colors: {
